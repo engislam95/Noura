@@ -1,0 +1,34 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1740 10" width="1740" height="10">
+	<title>Layer 2</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="-81.046" y1="-2" x2="1825.461" y2="-2">
+			<stop offset="0" stop-color="#3a8acb"  />
+			<stop offset="0.575" stop-color="#ffcc36"  />
+			<stop offset="1" stop-color="#ff3058"  />
+		</linearGradient>
+		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="-81.047" y1="-2" x2="1825.461" y2="-2">
+			<stop offset="0" stop-color="#3a8acb"  />
+			<stop offset="0.575" stop-color="#ffcc36"  />
+			<stop offset="1" stop-color="#ff3058"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #dcdbdd } 
+		.shp1 { fill: url(#grd1) } 
+		.shp2 { fill: url(#grd2) } 
+	</style>
+	<g id="Layer 2">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Path&gt;" class="shp0" d="M307.48 10L5.35 10C2.59 10 0.35 7.76 0.35 5L0.35 5C0.35 2.24 2.59 0 5.35 0L307.48 0C310.24 0 312.48 2.24 312.48 5L312.48 5C312.48 7.76 310.24 10 307.48 10Z" />
+				</g>
+			</g>
+			<path id="&lt;Path&gt;" class="shp1" d="M1734.58 10L597.45 10C594.69 10 592.45 7.76 592.45 5L592.45 5C592.45 2.24 594.69 0 597.45 0L1734.58 0C1737.34 0 1739.58 2.24 1739.58 5L1739.58 5C1739.58 7.76 1737.34 10 1734.58 10Z" />
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="shp2" d="M604.46 10L302.34 10C299.58 10 297.34 7.76 297.34 5L297.34 5C297.34 2.24 299.58 0 302.34 0L604.46 0C607.23 0 609.46 2.24 609.46 5L609.46 5C609.46 7.76 607.23 10 604.46 10Z" />
+			</g>
+		</g>
+	</g>
+</svg>

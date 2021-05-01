@@ -1,0 +1,101 @@
+@font-face {
+  font-family: CairoRegular;
+  src: url("../fonts/Cairo-Regular.ttf");
+}
+@font-face {
+  font-family: CairoLight;
+  src: url("../fonts/Cairo-Light.ttf");
+}
+@font-face {
+  font-family: CairoBold;
+  src: url("../fonts/Cairo-Bold.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "CairoBold";
+}
+p,
+li,
+a {
+  font-family: "CairoRegular";
+}
+small {
+  font-family: "CairoLight";
+}
+.container {
+  margin: 0 auto;
+  width: 85%;
+}
+.q-page-container {
+  padding-top: 50px !important;
+}
+.q-layout {
+  background-image: url("../imgs/circules.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.q-header {
+  position: relative !important;
+}
+.q-layout__shadow:after {
+  box-shadow: none !important;
+}
+.q-toolbar .q-avatar {
+  font-size: 100px !important;
+  width: 1.5em;
+  border-radius: 0 !important;
+}
+.q-btn--dense .q-btn__wrapper {
+  padding: 0.285em !important;
+}
+a.iconNav {
+  margin: 0 5px;
+}
+.activated::after {
+  content: "";
+  width: 100%;
+  display: block;
+  height: 2px;
+  border-radius: 50px;
+  background: #1e8fff !important;
+  margin-top: 10px;
+}
+a.iconNav::after {
+  content: "";
+  width: 100%;
+  display: block;
+  height: 2px;
+  border-radius: 50px;
+  background: grey;
+  margin-top: 10px;
+}
+.q-field--highlighted .q-field__label,
+.q-field__label,
+.q-field__messages {
+  font-family: "CairoLight";
+}
+.q-field--auto-height.q-field--dense.q-field--labeled .q-field__native,
+.q-field--labeled .q-field__native,
+.q-item__label {
+  font-family: "CairoRegular";
+}
+.q-btn__content {
+  font-family: "CairoBold";
+}
+.q-field--error .q-field__bottom {
+  margin-bottom: 3px;
+}
+.q-dialog__backdrop {
+  background: rgba(0, 0, 0, 0.85);
+}
+// @media (min-width: 0) {
+//   .col,
+//   .col-xs {
+//     flex: initial;
+//   }
+// }
