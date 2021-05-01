@@ -367,7 +367,7 @@ export default {
   width: 100%;
   color: #fff;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .Authentication {
     background-position: -778px 0px;
     background-size: initial;
