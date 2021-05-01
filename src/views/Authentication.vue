@@ -200,7 +200,7 @@
         </div>
       </q-form>
     </div>
-    <div class="container q-mt-lg q-pb-lg flex justify-end">
+    <div class="containerF q-mt-lg q-pb-lg flex justify-end">
       <img src="../assets/imgs/footer-w.svg" class="q-mb-sm" />
       <p class="text-right footText">
         All rights reserved © Businessnoura 2019
@@ -326,7 +326,7 @@ export default {
   }
 }
 .authBtn {
-  width: 50%;
+  width: 50% !important;
 }
 .authInput {
   width: 100%;
@@ -367,6 +367,9 @@ export default {
   width: 100%;
   color: #fff;
 }
+.containerF {
+  width: 80%;
+}
 @media (max-width: 900px) {
   .Authentication {
     background-position: -778px 0px;
@@ -376,6 +379,9 @@ export default {
     width: 80% !important;
     padding-bottom: 50px;
     padding-top: 120px;
+  }
+  .authBtn {
+    width: 80% !important;
   }
 }
 </style>
