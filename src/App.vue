@@ -1,6 +1,6 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <q-header reveal elevated class="container bg-transparent q-pt-lg">
+  <q-layout view="lHh Lpr lFf" style="height: 100vh; min-height: 100%">
+    <q-header reveal class="container bg-transparent q-pt-lg">
       <q-toolbar>
         <router-link to="/">
           <q-avatar>

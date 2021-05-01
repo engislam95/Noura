@@ -341,7 +341,7 @@ export default {
   min-height: 35px;
 }
 .my-card {
-  background: transparent;
+  background: transparent !important;
   box-shadow: none !important;
   img {
     width: 30% !important;
