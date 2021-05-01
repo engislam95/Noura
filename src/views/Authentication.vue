@@ -285,9 +285,7 @@ export default {
       }, 700);
     },
     onSubmit() {
-      console.log(this.registerModel);
       this.startComputing(1);
-      console.log(this.loginModel);
     },
 
     onReset() {},
