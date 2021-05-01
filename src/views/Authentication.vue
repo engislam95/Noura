@@ -302,7 +302,7 @@ export default {
 }
 .auth {
   padding-top: 80px;
-  width: 30%;
+  width: 30% !important;
 }
 .Authentication {
   background-image: url("../assets/imgs/login_bg.svg");
@@ -367,14 +367,15 @@ export default {
   width: 100%;
   color: #fff;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .Authentication {
     background-position: -778px 0px;
     background-size: initial;
   }
   .auth {
-    width: 80%;
+    width: 80% !important;
     padding-bottom: 50px;
+    padding-top: 120px;
   }
 }
 </style>
