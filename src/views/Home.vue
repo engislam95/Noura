@@ -177,7 +177,7 @@ export default {
 .linesBg {
   width: 100%;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .noraHead {
     padding-top: 100px;
   }
