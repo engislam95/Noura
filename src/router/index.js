@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import Auth from "../views/Authentication.vue";
 
 Vue.use(VueRouter);
 
@@ -10,11 +11,13 @@ const routes = [
     name: "Home",
     component: Home,
   },
-  // which is lazy-loaded when the route is visited.
+
   {
     path: "/sign-up/sign-in",
     name: "Authentication",
-    component: () => import("../views/Authentication.vue"),
+    // if you which to be  lazy-loaded when the route is visited.
+    // component: () => import("../views/Authentication.vue"),
+    component: Auth,
   },
 ];
 

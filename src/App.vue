@@ -51,7 +51,7 @@
       v-if="this.$route.name != 'Authentication'"
     >
       <img src="./assets/imgs/footer.svg" class="q-mb-sm" />
-      <p class="text-right footText">
+      <p class="text-right footTextHome">
         All rights reserved © Businessnoura 2019
       </p>
     </div>
@@ -69,7 +69,8 @@ export default {
 </script>
 
 <style>
-.footText {
+.footTextHome {
   width: 100%;
+  color: black;
 }
 </style>
