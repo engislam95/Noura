@@ -148,7 +148,7 @@
             تسجيل
             <template v-slot:loading>
               <q-spinner-gears class="on-left" />
-              تسجيل الدحول ...
+              تسجيل الدخول ...
             </template>
           </q-btn>
         </div>
@@ -194,7 +194,7 @@
             تسجيل
             <template v-slot:loading>
               <q-spinner-gears class="on-left" />
-              تسجيل الدحول ...
+              تسجيل الدخول ...
             </template>
           </q-btn>
         </div>
