@@ -93,6 +93,26 @@ a.iconNav::after {
 .q-dialog__backdrop {
   background: rgba(0, 0, 0, 0.85);
 }
+@media (min-width: 280px) and (max-width: 425px) {
+  .Authentication {
+    background-position: -812px 16px;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .Authentication {
+    background-position: -711px 16px;
+  }
+}
+@media (min-width: 769px) and (max-width: 800px) {
+  .Authentication {
+    background-position: -604px 16px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Authentication {
+    background-position: -471px 16px;
+  }
+}
 // @media (min-width: 0) {
 //   .col,
 //   .col-xs {
