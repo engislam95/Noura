@@ -71,7 +71,8 @@
             </q-btn-toggle>
           </div>
         </div>
-        <div class="col-xs-12 col-md-9 col-lg-9 col-xl-9">
+        <div class="col-xs-12 col-md-9 col-lg-9 col-xl-9 wrapperImage">
+          <img src="../assets/imgs/flag.svg" class="flagImg" />
           <q-carousel
             v-model="slide"
             dark
@@ -82,6 +83,7 @@
             padding
             arrows
             height="300px"
+            style="border-radius: 15px"
             class="bg-white text-white shadow-1 rounded-borders"
           >
             <q-carousel-slide
@@ -163,7 +165,9 @@ export default {
 .q-carousel__arrow .q-icon {
   border: 1px solid;
   border-radius: 50%;
-  font-weight: 300 !important;
+}
+.q-carousel__arrow .q-btn .q-btn__content i {
+  color: #00000091 !important;
 }
 .sliderC {
   background: #fff;
@@ -176,6 +180,15 @@ export default {
 }
 .linesBg {
   width: 100%;
+}
+.wrapperImage {
+  position: relative;
+}
+.flagImg {
+  position: absolute;
+  right: 25px;
+  z-index: 2;
+  top: -5px;
 }
 @media (max-width: 900px) {
   .noraHead {

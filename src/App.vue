@@ -1,6 +1,10 @@
 <template>
   <q-layout view="lHh Lpr lFf" style="height: 100vh; min-height: 100%">
-    <q-header reveal class="container bg-transparent q-pt-lg">
+    <q-header
+      reveal
+      class="container bg-transparent q-pt-lg"
+      :class="this.$route.name != 'Authentication' ? 'q-pb-xl' : 'q-pb-0'"
+    >
       <q-toolbar>
         <router-link to="/">
           <q-avatar>

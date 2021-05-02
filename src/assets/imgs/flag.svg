@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 63" width="34" height="63">
+	<title>Layer 2</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f1125b } 
+	</style>
+	<g id="Layer 2">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="shp0" d="M1.16 0L33.28 0C33.51 0 33.7 0.19 33.7 0.42L33.7 61.24C33.7 61.52 33.37 61.67 33.15 61.48L17.22 47.46L1.29 62.12C1.08 62.31 0.74 62.16 0.74 61.87L0.74 0.42C0.74 0.19 0.93 0 1.16 0Z" />
+		</g>
+	</g>
+</svg>
