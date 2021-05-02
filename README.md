@@ -1,5 +1,14 @@
 # noura
 
+## Live 
+
+
+```
+https://noura-app.netlify.app/
+```
+
+
+
 ## Project setup
 ```
 npm install
